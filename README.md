@@ -1,1 +1,19 @@
-# Webclass-Script-Public
+# WebclassScript
+
+## 機能:
+
+####     トップページ：
+
+- お知らせを格納する　https://github.com/BearOffice/WebClass-Extension
+
+- 時間割表の空欄を非表示にする
+
+- 年・学期を下に移動する
+
+
+
+####    教材ページ：
+
+- 取り込みファイル（右側に表示するPDFなど）をすべてダウンロードするボタンを追加する
+
+- 添付資料をすべてダウンロードするボタンを追加する
