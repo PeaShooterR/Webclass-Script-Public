@@ -76,16 +76,14 @@
         $('.course-webclass').html('WebClass&nbsp;&nbsp;' + egg[Math.floor(Math.random() * egg.length)]);
 
         // Move year selector down
-        let courseTaking = $('div.col-sm-9 > h3');
+        let courseTaking = $('div > h3');
         let timeTable = $('form > h4');
-        let semesterDisplayed =$('form > h4:nth-child(4)');
         let yeasrAndSemester = $('form > div:nth-child(2)');
         let addCourse = $('form > div:nth-child(7)');
 
 
         courseTaking.remove();
         timeTable.remove();
-        semesterDisplayed.remove();
         yeasrAndSemester.remove();
         yeasrAndSemester.insertAfter(addCourse)
         console.log('[Webclass Script]年・学期の位置を変更しました。');
@@ -132,7 +130,7 @@
         window.addEventListener('load', function () {
             // Add button to the top bar
             let topBar = document.querySelector('html > frameset > frame').contentDocument.querySelector('#ContentQuitMenu > li')
-            let downloadAttacmentButton = $("<input type='button' name='download_attachment' value='全ての ↓ 添付資料ファイル ↓ をダウンロード' class='btn btn-default'>");
+            let downloadAttacmentButton = $("<input type='button' name='download_attachment' value='全ての↙︎添付資料ファイル↙︎をダウンロード' class='btn btn-default'>");
             let downloadTextButton = $("<input type='button' name='download_text' value='全ての↘︎取り込みファイル↘︎をダウンロード' class='btn btn-default'>");
             topBar.appendChild(downloadAttacmentButton[0]);
             topBar.appendChild(downloadTextButton[0]);
